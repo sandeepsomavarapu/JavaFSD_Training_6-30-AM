@@ -1,0 +1,70 @@
+JAVA:
+=======
+
+
+language:
+=========
+communication with humans 
+
+
+
+Programming Languages:
+=======================
+communication with machines 
+
+	c,c++,java,python,.net
+
+	2 types
+	
+	POP 							OOP			OMG
+c,b,bcpl,cobol,photon...			c++,java,.net,python......
+pointers
+	OOPS features
+				1)Performance	INHERITANCE,POLYMORPHISAM	
+				2)Security		ABSTRACTION,ENCAPSULATION
+
+
+		OOPS 			OOPL
+	METHODOLOGY 		THE LANGUAGE WHICH SUPPORT ALL THE FEATURES OF OOPS 
+
+					JAVA IS ONE OF THE OOPL
+WHY JAVA?			1995 JDK BETA  JDK1.0......JAVA 19
+
+		1)PLATFORM INDEPENDENT     WORA(write once run anywhere)
+		2)GARBAGE COLLECTION   GARBAGE COLLECTOR   C/C++
+
+
+														.NET PLATFORM DEPENDENT
+		MACHINE1 			MACHINE 2				MACHINE1 			MACHINE2
+												
+		WINDOWS				LINUX					WINDOWS 7			LINUX
+		32/64					32
+		I3 						I7
+		
+		JAVA 					JAVA	
+
+
+
+10GB  3 GB
+
+
+		JAVA 	james gosling-->53 KEYWORDS 1995 19 sun micro system -->oracle 
+		
+		lower case 
+HELLO WORLD 
+
+complete java installation
+
+		https://www.javatpoint.com/javafx-how-to-install-java
+
+
+
+
+
+
+
+
+
+
+
+
