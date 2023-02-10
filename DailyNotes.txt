@@ -58,10 +58,81 @@ complete java installation
 		https://www.javatpoint.com/javafx-how-to-install-java
 
 
+1)what is compailation?
+
+	the process of converting source code to byte code ,compailation (javac filename.java)
+	
+2)What is execution?	.class
+	
+	line by line executed JVM	
 
 
 
+		JDK-->JRE-->JVM
 
+
+Write a program to print add,sub,mul,div of 100,200
+
+Identifier:
+===========
+any name in java will call it as identifier
+
+	variable name,classname,method,interface,constant......
+
+
+		class Test#124
+		{
+		
+		int age@mine=123;
+		
+		
+		
+		}
+		
+		
+		a-z,
+		A-Z,
+		0-9,
+		_,$
+		
+		
+Variables:
+==========
+		sandeeep 8989898989
+
+		variable name 	value
+
+
+		int x=90;
+
+syntax:
+========
+
+		datatype variablename = value
+
+Datatype:
+========
+	name,age,dob,weight,salary,email,contactno,aadhar no,pan......
+
+53 
+
+8 dt keywords
+
+byte 	1 byte  -8 bits		-128 to 127													
+short	2 bytes				-32768 to 32767					short salary=40000;
+int 	4 bytes				-2147483648 to 2147483647
+long	8 bytes				-2 power 63 to 2 power 63 -1				949432223232			long age=29;   --->100
+
+float	4 bytes			float marks=87.5423423423423423423f;    5to 6 decimal 
+double	8 bytes													14 to 15 decimal 	
+
+boolean 1 bit --->true(1),false(0)
+char	2 bytes						char gender='M';	
+
+C ASCII VALUES
+ UNICODE 18 international 
+
+		24.56 LPA   76.5
 
 
 
