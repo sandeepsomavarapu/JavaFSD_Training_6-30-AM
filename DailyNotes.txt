@@ -28,7 +28,7 @@ pointers
 	METHODOLOGY 		THE LANGUAGE WHICH SUPPORT ALL THE FEATURES OF OOPS 
 
 					JAVA IS ONE OF THE OOPL
-WHY JAVA?			1995 JDK BETA  JDK1.0......JAVA 19
+WHY JAVA?			1995 JDK BETA  JDK1.0...java8...JAVA 19
 
 		1)PLATFORM INDEPENDENT     WORA(write once run anywhere)
 		2)GARBAGE COLLECTION   GARBAGE COLLECTOR   C/C++
@@ -62,7 +62,7 @@ complete java installation
 
 	the process of converting source code to byte code ,compailation (javac filename.java)
 	
-2)What is execution?	.class
+2)What is execution?	.class  java Welcome   JVM
 	
 	line by line executed JVM	
 
@@ -135,7 +135,29 @@ C ASCII VALUES
 		24.56 LPA   76.5
 
 
+Variables
+	local (inside a method)   			global(inside the class and outside method)
+									instance     static 
 
+
+4 points 
+
+1)syntax
+		static variables declared by using static 
+		if there is know static keyword i.e instance 
+2)memory
+		class,object(instantiation) 
+	instance variables will get memory space for every create object 
+	static variables will get memory space ONLY ONCE at the time of class loading into JVM 
+	
+3)Access
+		static properties can be accessed by using CLASSNAME
+		instance properties can be accessed by using OBJNAME
+
+4)When to use 
+		for COMMON DATA like countryname,schoolname,orgname... fo for static
+		for UNIQUE DATA like id,aadhar,pancard,mobile....instance 
+		
 
 
 
