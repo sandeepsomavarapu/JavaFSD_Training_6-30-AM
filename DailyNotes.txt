@@ -159,5 +159,52 @@ Variables
 		for UNIQUE DATA like id,aadhar,pancard,mobile....instance 
 		
 
+Eclipse :	apache	IDE
+=========
+INTELLJI IDEA,NETBEANS,VS CODE,MY ECLIPSE
 
+https://www.eclipse.org/downloads/packages/release/2020-12/r
+
+Eclipse IDE for Enterprise Java Developers
+
+								JAVA
+			JSE 					JEE 												JME	
+COREJAVA,AWT,SWINGS,APPLETS..	SERVLETS,JSP,MVC,JSF,EJB,WEBSERVICES,SPING WEB....		 ANDROID
+Applications
+
+
+1)standalone/dekstop applications   eclipse,media player,anti virus,java
+
+2)web applications				gmail,fb,insta,amazon,flipkart.....
+
+3)distributed applications			BANKING APPLICATIONS
+
+4)mobile applications
+
+
+
+//ctrl+space--for suggestions
+//ctrl+shift+f-->formatting
+//ctrl+shift+/-->for adding multiline comments 
+//ctrl+shift+\-->for removing multiline comments 
+//ctrl+/-->for adding and removing single line comments 
+
+Methods:
+=======
+method is block of statements for reusability
+
+
+syntax:
+=========
+
+accessmodifier returntype methodname(params)  //method signature
+{
+
+//method body
+}
+
+
+
+Flow Control:
+===============
 
