@@ -199,11 +199,20 @@ syntax:
 
 accessmodifier returntype methodname(params)  //method signature
 {
-
+return
 //method body
 }
 
+Package :
+==========
+BY DEFAULT PACKAGE FOR EVERY JAVA FILE  java.lang
+FOLDER-->PACKAGE 
 
+PACKAGE-->COLLECTION OF CLASSES
+
+JAR-->COLLECTION OF PACKAGES
+
+ZIP FILES
 
 Flow Control:
 ===============
