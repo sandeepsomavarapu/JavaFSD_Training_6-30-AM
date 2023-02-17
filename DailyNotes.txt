@@ -188,6 +188,7 @@ Applications
 //ctrl+shift+/-->for adding multiline comments 
 //ctrl+shift+\-->for removing multiline comments 
 //ctrl+/-->for adding and removing single line comments 
+//ctrl+shift+o-->for adding required imports and removing use less imports
 
 Methods:
 =======
@@ -213,6 +214,14 @@ PACKAGE-->COLLECTION OF CLASSES
 JAR-->COLLECTION OF PACKAGES
 
 ZIP FILES
+
+
+package   
+
+class/interface-->everyword first letter should capital
+method/variable->starts with lowercase rest of the words first letter capital
+package-->lowercase
+
 
 Flow Control:
 ===============
