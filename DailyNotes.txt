@@ -144,7 +144,7 @@ Variables
 
 1)syntax
 		static variables declared by using static 
-		if there is know static keyword i.e instance 
+		if there is know static keyword then i.e instance 
 2)memory
 		class,object(instantiation) 
 	instance variables will get memory space for every create object 
@@ -177,7 +177,7 @@ Applications
 
 2)web applications				gmail,fb,insta,amazon,flipkart.....
 
-3)distributed applications			BANKING APPLICATIONS
+3)distributed applications			BANKING APPLICATIONS   ATM-->Bank
 
 4)mobile applications
 
@@ -226,3 +226,23 @@ package-->lowercase
 Flow Control:
 ===============
 
+command line args
+
+
+Scanner -->java.util
+
+local varibles when    where			stack  
+
+instance	when howmuch		 where   heap/object area
+
+static 		when how much    where     method/class area
+
+
+
+JVM  3 parts		java Welcome
+
+	CLSS --->loading
+	
+	Memory areas
+	
+	execution engine
