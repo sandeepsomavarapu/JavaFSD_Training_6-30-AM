@@ -246,3 +246,45 @@ JVM  3 parts		java Welcome
 	Memory areas
 	
 	execution engine
+	
+	
+OOPS Features:
+=================
+
+	1)inheritance
+	2)polymorphisam				-performance
+	3)encapsulation
+	4)abstraction				-security
+
+
+inheritance:
+=============extends ,implements 
+process of aquiring the properties from one class to another class
+
+CODE Resuability
+
+class Hello    //super/parent
+{
+100 methods
+20 variables
+
+/...
+
+}
+
+
+class Hi extends Hello{  //sub/child
+
+20 methods
+10 variables
+
+
+}
+
+//where ever main method is there that class must be public and the same class name should be the file name
+
+
+//by default package for every java file  java.lang
+
+//by default parent for every java class is java.lang.Object
+
