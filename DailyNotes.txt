@@ -286,5 +286,91 @@ class Hi extends Hello{  //sub/child
 
 //by default package for every java file  java.lang
 
-//by default parent for every java class is java.lang.Object
+//by default parent for every java class is java.lang.Object -11
+
+instance / static methods 
+
+concrete/non-abstract method:method with body/implementation
+
+abstract method :method without body/implementation
+
+
+
+Abstraction:hiding the internals by showcasing functionalities 
+			Security
+
+	class			: collection of only concrete methods
+
+	abstract class  : collection of concrete and abstract methods  0-100%
+		
+	interface       : collection of only abstract methods		100%
+
+
+
+Multiple Inheritance:
+========================
+
+MI not supported by java @class level
+MI  supported by java @interface level
+
+
+class Parent 				class Parent1
+{							{
+	m1(){						m1(){
+	
+	a+b							a*b
+	}							}
+
+
+}							}
+
+
+
+class Child extends Parent,Parent1
+{
+
+
+Child child=new Child();
+child.m1();//jvm
+
+}
+
+
+
+
+
+interface Parent 			interface Parent1
+{							{
+	void m1();					void m1();
+						
+
+
+}							}
+
+
+
+class Child implements Parent,Parent1
+{
+
+
+Child child=new Child();
+child.m1();//jvm
+
+}
+m1()
+{
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
