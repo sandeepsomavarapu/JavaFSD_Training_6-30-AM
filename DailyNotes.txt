@@ -363,14 +363,76 @@ m1()
 
 }
 
+POLYMORPHISAM:
+==============
+many forms 
 
 
+method overloading/compile time polymorphisam/static binding
+		method name is same signature is different 
+								no of params
+								order of params
+								type of params
+		
+		
+		
+		sleep(2000)
+		sleep(2,30,2000)
+		
+		
+method overriding /runtime polymorphisam/dynamic binding
+method name is same implementation is different
+
+class Parents
+{
+ public void properties()
+ {
+ sop("100 crores")
+ }
+public void marriage()
+ {
+ sop("xyz")
+ }
+}
 
 
+class Abhishek extends Parents
+{
+
+public void marriage()
+ {
+ sop("abc")
+ }
 
 
+}
+this,super,final,constructor,public,private,protected,default,Encapsulation
 
 
+final:
+=======
+		before the variable  :we cant change the final variable value through out the program
+		before the method	 :we cant override final method
+		before the class	 :we cant inherit the final classes
 
 
-
+constructor:
+============
+			syntax:
+			========
+			
+			classname objname=new classname();
+			
+			
+			classname objname=new constructor();
+			
+	constructor is a special member function which is used intialize object and provide values for instane variables
+			
+			
+this:-
+ it used to represent current class properties(variables,methods,constructors,object)	
+super :-
+ 
+ it used to represent parent class properties(variables,methods,constructors)			
+			
+			
