@@ -1,36 +1,30 @@
-import java.util.Date;
+package pack1;
 
 public class Welcome {
 
-	public void addition() {
-		int a = 123;// local
-		int b = 234;
-		int result = a + b;
-		System.out.println("add of a & b : " + result);
+public void m1() {//protected,default,private 
+		System.out.println("am from welcome class m1 method");
 	}
 
-	public void sub(int a, int b) {
-		int result = a - b;
-		System.out.println("sub of a & b : " + result);
-	}
-
-	public static void printDate() {
-		System.out.println("Today's Date : " + new Date());
-	}
-
-	public String printMsg() {
-		return "welcome methods in java";
-	}
-
-	public static void main(String[] args) {// JVM
-		Welcome.printDate();
-		System.out.println("welcome to java eclipse");// ctrl+space--for suggestions
-
+	public static void main(String[] args) {
 		Welcome wel = new Welcome();
-		wel.addition();
+		wel.m1();//public :inside the class
+	}
 
-		wel.sub(200, 100);
-		System.out.println(wel.printMsg());
+}
+
+class Hello extends Welcome {
+
+	public void myMethod() {
+		Hello wel = new Hello();
+		wel.m1();//inside the package child class
 	}
 }
-//ctrl+shift+f-->for formatting
+
+class Dell {
+
+	public void myMethod() {
+		Welcome wel = new Welcome();
+		wel.m1();//inside the package non sub class
+	}
+}

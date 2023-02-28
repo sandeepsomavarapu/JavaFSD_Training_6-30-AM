@@ -435,4 +435,57 @@ super :-
  
  it used to represent parent class properties(variables,methods,constructors)			
 			
+AccessModifiers:
+================
+	public,private,protected,default
+
+
+DEFAULT:PACKAGE LEVEL SCOPE
+PRIVATE:CLASS LEVEL SCOPE
+PUBLIC :ANY WHERE 
+PROTECTED:INSIDE THE PACKAGE ANYWHERE OUTSIDE THE PACKAGE WHICH ARE CHILD
+
+
+
+Encapsulation:
+==================
+
+wrapping up of data and behaviours together as a single unit .
+
+class Employee
+{
+private int eid;
+private String	ename;
+private float	esal;
+private String 	eadd;
+private String	edesg;
+
+//setters and getters
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			
