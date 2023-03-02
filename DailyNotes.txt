@@ -463,29 +463,42 @@ private String	edesg;
 //setters and getters
 
 }
+Day:15
+========
+
+String,StringBuffer,StringBuilder -->java.lang
+
+if we want to represent group characters 
+
+
+		"ktg"
+
+String:imuttable(final/fixed)
+
+SCP-->String objects
+
+	duplicates are not allowed 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+StringBuffer 		StringBuilder:muttable
+is synchronized 		not synchronized
+thread safety			no threadsafety
+			
+			public void m1()
+			{									t1 ,t2 ,t3
+			
+			
+			}
+			
+			public synchronized void m2()
+			{
+			
+			
+			}
+			
+			https://www.w3schools.com/java/java_ref_string.asp
+			
+			
 			
