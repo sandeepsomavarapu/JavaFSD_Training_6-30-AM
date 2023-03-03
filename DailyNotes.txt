@@ -500,5 +500,25 @@ thread safety			no threadsafety
 			
 			https://www.w3schools.com/java/java_ref_string.asp
 			
+Exception Handling:
+====================
+
+without exception handling:
+============================
+	1)system defined error messages
+
+	2)abnormal termination
+
+
+with exception handling Advantages:
+============================
+	1)User friendly error messages
+
+	2)normal termination
+
+https://www.javamadesoeasy.com/2015/05/exception-handling-exception-hierarchy.html#at_pco=smlwn-1.0&at_si=63fed53ca3432ce4&at_ab=per-2&at_pos=0&at_tot=1
+
+
+1 example
 			
 			
