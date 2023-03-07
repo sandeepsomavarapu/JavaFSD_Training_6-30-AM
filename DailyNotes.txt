@@ -521,4 +521,26 @@ https://www.javamadesoeasy.com/2015/05/exception-handling-exception-hierarchy.ht
 
 1 example
 			
+			try-->error code
+			catch-->handling code 
+			
+			finally-->cleanup code
+			
+			throw -->used to throw an exception
+				throw new Exception();
+			throws-->to indicate/alert/notification caller
+			
+		void m1() throws Exception
+		{
+		
+		
+		}
+			
+			
+		user defined exceptions	
+			
+			
+			EmployeeIdNotFound
+			
+			
 			
