@@ -540,7 +540,40 @@ https://www.javamadesoeasy.com/2015/05/exception-handling-exception-hierarchy.ht
 		user defined exceptions	
 			
 			
-			EmployeeIdNotFound
+			EmployeeIdNotFound   extends Exception/Throwable/Runtime
+			InvalidCredentials
+			ProductNotFound
 			
 			
-			
+Q) while overriding can we change access modifier ? YES conditions apply**(scope should increasing way)Cannot reduce the visibility of the inherited method 
+Q) while overriding can we change return type ?  YES Conditions apply**
+Q) while overriding can we change throws ?  YES conditions apply**
+
+https://www.geeksforgeeks.org/overriding-in-java/
+
+https://www.tutorialspoint.com/Rules-for-Java-method-overriding
+
+
+
+File IO
+===========		databases
+java <--->File
+
+
+java.io package
+
+
+File
+
+FileWriter
+BufferedWriter
+PrintWriter
+
+
+FileReader
+BufferedReader
+
+
+Employee<-->File
+
+serialization
