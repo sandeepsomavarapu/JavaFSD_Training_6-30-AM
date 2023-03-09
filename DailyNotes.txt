@@ -576,4 +576,48 @@ BufferedReader
 
 Employee<-->File
 
-serialization
+serialization,deserialization
+transient
+
+
+Collections:
+============
+variable
+
+int eid=123;
+	eid=124;
+
+Arrays:used to store group values/objects
+
+literal
+int eids[]={123,124,125,126,127};
+
+new keyword
+
+int eids1[]=new int[10];
+							eid[10]=2322;//AIOE
+		index 0,1,2,3,4,5,6...9
+
+Limitations of arrays:
+=======================
+
+1)arrays are fixed in size
+
+2)arrays can hold/store only homogeneous data
+
+3)no utility methods
+
+
+Advantages of Collections:
+=======================
+
+1)Collections are not fixed in size
+
+2)Collections can hold/store both homogeneous and  haterogeneous data
+
+3)lots utility methods
+
+
+
+
+
