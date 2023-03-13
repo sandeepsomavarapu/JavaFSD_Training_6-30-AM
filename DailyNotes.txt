@@ -611,11 +611,21 @@ Limitations of arrays:
 Advantages of Collections:
 =======================
 
-1)Collections are not fixed in size
+1)Collections are not fixed in size   AL-->10  11th value   16   (cc*3/2)+1
 
 2)Collections can hold/store both homogeneous and  haterogeneous data
 
 3)lots utility methods
+
+List 
+
+1)duplicates are allowed
+2)insertion order is preserved
+
+java.util.*
+
+
+
 
 
 
