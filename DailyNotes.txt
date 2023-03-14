@@ -626,8 +626,29 @@ java.util.*
 
 
 
+Layered Architecture:
+=====================
+
+		code -->.java		12+13	=25							12,13,+
+
+Database I C					businesslogic						UI code				USER
+	
+DAO	layer			<--->   service layer			<--->    	UI layer			input/output
+
+								java			    			java
+
+		call and return style
 
 
+ProductManagement:
+==================
 
 
-
+1)Add Product
+2)Update Product
+3)Delete Product
+4)Get Product
+5)GetAll Products
+6)GetAll Products Betbeen Prices
+7)getAll Products By Category
+8)getAll products by productname
