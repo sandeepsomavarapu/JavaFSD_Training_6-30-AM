@@ -652,3 +652,119 @@ ProductManagement:
 6)GetAll Products Betbeen Prices
 7)getAll Products By Category
 8)getAll products by productname
+
+
+
+BankApplication:
+===============
+
+1)Add Account
+2)Update Account
+3)Delete Account
+4)Get Account Details
+5)Withdraw
+6)deposit
+7)fund transfer
+
+MultiThreading :
+================
+
+multi tasking:
+=============
+
+executing several tasks simultaneously
+
+
+Process based multi tasking   LAPTOP
+
+		executing several tasks simultaneously where each task is seperate independent process
+
+Thread based multi tasking :multi threading 
+
+	executing several tasks simultaneously where each and every task related to same process
+
+Process :group/collection of threads
+
+thread is smallest unit process
+
+
+class App
+{
+
+
+segment-1  thread1
+db/file/collection
+
+
+
+
+
+segment-2  thread2
+
+
+
+
+
+
+segment-3  thread3
+
+
+.
+.
+.
+.
+.
+.
+}
+
+thread creation in  java 
+
+
+1)implements Runnable interface 
+2)extends Thread class
+
+Functional Interfaces-->1 abstract 
+marker interface --->0 methods
+class Test implements Runnable
+{
+
+run()
+{
+
+
+
+}
+
+P S  V main(){
+Test t=new Test();
+
+Thread t=new Thread(t);
+		t.start();//run()
+
+}
+
+
+}
+
+Thread Class:
+===============
+
+class Test extends Thread
+{
+
+run()
+{
+
+
+
+}
+
+P S  V main(){
+Test t=new Test();
+		t.start();//run()
+
+}
+
+
+}
+
