@@ -660,7 +660,7 @@ BankApplication:
 
 1)Add Account
 2)Update Account
-3)Delete Account
+3)Delete Account				acccountNumber 
 4)Get Account Details
 5)Withdraw
 6)deposit
@@ -720,12 +720,12 @@ segment-3  thread3
 thread creation in  java 
 
 
-1)implements Runnable interface 
+1)implements Runnable interface    MI
 2)extends Thread class
 
 Functional Interfaces-->1 abstract 
 marker interface --->0 methods
-class Test implements Runnable
+class Test implents Runnable 
 {
 
 run()
@@ -741,10 +741,7 @@ Test t=new Test();
 Thread t=new Thread(t);
 		t.start();//run()
 
-}
-
-
-}
+}}
 
 Thread Class:
 ===============
@@ -767,4 +764,118 @@ Test t=new Test();
 
 
 }
+setName,getName,setProprity,getPriority,currentThread,start,run....
+
+sleep ,join,life cycle ,synchronized,inter thread communication wait,notify,notifyAll
+
+
+
+public class ThreadEx implements Runnable {
+
+	@Override
+	public void run() {
+		Thread.currentThread().setName("ktgroup");
+		Thread.currentThread().setPriority(1);
+		System.out.println(Thread.currentThread().getPriority());// 10
+		System.out.println(Thread.currentThread().getName());// thread-0
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Child Thread");// 5
+		}
+	}
+
+	public static void main(String[] args) {
+
+		Thread.currentThread().setName("KTG");
+		Thread.currentThread().setPriority(10);
+		System.out.println(Thread.currentThread().getPriority());
+		System.out.println(Thread.currentThread().getName());
+		ThreadEx obj = new ThreadEx();
+		Thread th = new Thread(obj);
+		th.start();
+		for (int i = 0; i < 10; i++) {
+			System.out.println("Main Thread");// 5 //1-10
+		}
+	}
+
+}
+
+
+https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
+
+
+
+
+
+	
+						t1,t2,t3
+public   void  m1()
+{
+//t1
+
+}
+
+Database:
+===========
+oracle,mysql,postgres,db2,...
+
+
+MYSQL:oracle corporation
+======
+table =columns+rows 
+
+empid empname empsal empadd
+
+
+DDl-->create,alter,drop,truncate,rename 
+
+DML-->insert ,update,delete
+
+DRL-->select 
+
+mysql download :=
+=================
+https://dev.mysql.com/downloads/installer/
+
+
+create database ktg_fsd
+
+JDBC:java database connectivity
+
+
+
+java --->files
+
+java<--->Database -->JDBC(API)
+
+
+
+JDBC->MYSQL
+
+
+		.java			---> DB
+
+5 steps 
+
+1)loading the driver class
+
+2)creating the connection
+
+3)creating statement
+
+4)executing query
+
+5)closing the connection
+
+					
+
+
+
+
+
+
+
+
+
+
+
 
