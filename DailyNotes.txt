@@ -868,11 +868,51 @@ JDBC->MYSQL
 
 					
 
+JPA HIbernate:
+===============
 
 
+JDBC :
+======
+1)querys
+
+2)tables creation
+
+3)exception handling
+
+4)boiler plate code
 
 
+JPA:
+====
+1)no query's
 
+2)no table creation
+
+3)no exception handling
+
+4)no boilerplate code 
+
+		jpa -->specification
+			
+			ORM-->hibernate,eclipse link,toplink,ibatis...
+			
+		hibernate
+		
+		Jpa+hibernate
+		
+		Entity   		employee
+		
+		persistence.xml		configuration
+		
+		jars
+		EntityManagerFactory
+		EntityManager	--->persist ,merge,remove,find
+		
+		
+		JPQL:
+		
+			querys:
 
 
 
