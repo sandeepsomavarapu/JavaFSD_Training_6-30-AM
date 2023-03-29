@@ -915,7 +915,111 @@ JPA:
 			querys:
 
 
+Spring intro:
+=============
+
+spring is non-invasive framework which used to create light weight and loosley coupled applications.
+
+
+		frameworks 
+			
+				invasive 	:struts
+				
+				non-invasive:hibernate,spring
+				
+
+Servlets:	EJB/struts
+==========
+			web applications 
+
+1)implement Servlet		5 methods
+
+2)extends GenericServlet
+
+3)extends HttpServlet 		11 methods
+
+100*11=1100
+		class login extends HttpServlet
+		{
+		
+		}
+
+
+
+class A
+{
+m2()
+{}
+
+}
+
+class B{
+
+m1()
+{
+A a=new A(); //tightly coupled 
+a.m2();
+
+}
+
+}
+spring container:BeanFactory,ApplicationContext
+spring is going to create objects for you
+
+	object life cycle 
+	
+	1)creating the object
+	
+	2)wiring the objects
+	
+	3)configuring the objects
+	
+	4)destroy the memory
+
+
+			A		B
+			
+			container 
+			
+			
+		
+		Employee
 
 
 
 
+
+
+
+		Client
+		
+		
+		Employe emp=new Employee();
+		
+		Spring core :=dependency injection module/IOC
+		
+			configuration:
+					xml config	:<beans><bean>
+					annotation config
+					java config
+			
+spring 6.x	
+
+		5.x
+		
+		Rod Johnson
+		
+		EJB: 
+		spring 1.x 2003
+		
+		configuration
+		
+			
+			spring jars 
+			
+			
+			
+			
+			
+			
+			
