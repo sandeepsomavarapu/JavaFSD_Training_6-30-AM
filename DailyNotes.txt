@@ -998,6 +998,10 @@ spring is going to create objects for you
 		
 		Spring core :=dependency injection module/IOC
 		
+			setter injection			property
+			constructor injection		constructor-arg
+			autowiring
+		
 			configuration:
 					xml config	:<beans><bean>
 					annotation config
