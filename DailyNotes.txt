@@ -1004,12 +1004,25 @@ spring is going to create objects for you
 		
 			configuration:
 					xml config	:<beans><bean>
-					ANNOTATION CONFIG
+					ANNOTATION CONFIG:@Component ,@Configuration,@ComponentScan,@Service,@Repository,@Autowired
 					java config
-			
-spring 6.x	
-
-		5.x
+																
+															  / \
+		Spring has given annotations for user defined classes  |   but not for predefined classes
+		
+		
+		
+		java config: @Bean
+		
+  
+				
+		
+		
+		
+		
+		
+		
+		
 		
 		Rod Johnson
 		w
