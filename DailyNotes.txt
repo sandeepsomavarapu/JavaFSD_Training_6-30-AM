@@ -1011,14 +1011,8 @@ spring is going to create objects for you
 		Spring has given annotations for user defined classes  |   but not for predefined classes
 		
 		
-		
-		java config: @Bean
-		
-  
-				
-		
-		
-		
+		for predefined classes explicit config is required 
+		java config: @Bean	
 		
 		
 		
@@ -1040,7 +1034,157 @@ spring is going to create objects for you
 				BYTYPE
 				CONSTRUCTOR 
 			
+		spring core (xml,annotation,java config..,setter injection,constructor injection)	
+				<beans><bea><property><constructor-arg>
+				container:life cycle of a object,autowiring 
+		
+
+		@Autowired
+		@Component
+		@Service
+		@Repository
+		@Configuration
+		@ComponentScan
+		@Bean
+		
+		@Id
+		@Entity
+		@Column
+		@Table
+			
+			hibernate:non -invasive but not loosley coupled 
+			
+			
+			spring ORM/JPA: loosley coupled  and non invaisve 
 			
 			
 			
+		Web application :
+=========================fornt end pages :html
+
+spring mvc ---->server(tomcat,weblogic,glassfish,jboss)
+			
+			tomcat-->apache foundation
+
+		
+			
+		MVC:model view controller 
+
+		model data :employee
+
+		view :UI
+
+		controller 
+		
+
+@Controller
+
+
+		web application  urls
+		
+		@RequestMapping("/")
+
+
+
+1)configuration   @Bean 
+
+2)server
+
+3)maven dependencies :java ,server,spring,jpa,hibernate,database .....version
+
+Spring Boot:
+=============
+
+	spring boot:it is built on top of spring framework
+
+
+1)Auto configuration
+	Most of the commonly used beans aleady configured by the spring boot 
+2)Embeded Server 
+		internal server (tomcat)8080 .properties xml
+
+3)Starters dependencies
+			starter-parent -->manage all the jars version: hikari datasource 
+		
+4)Actuators  url end points 
+
+			to know internals /project insite about beans 
+		
+
+
+		RAD
+			
+			
+		STS	--Pivotal
+			
+			Rest
+			
+	Webservices:
+-------------------  EJB/RMI/SP-->			java <---> java   RPC--->   c/c++<-->c/c++   DCOM .net<-->.net
+	if we want make communication between two interoperable applications 
+
+
+java<-->c  webservices
+			phonepe,gpay,whatsapp.....webservices
+			
+			
+			ATM  --->x ATM
+
+			
+
+
+			app1    <--->	app2
+
+			java			py
+			
+			tomcat			weblogic
+
+
+	webservices 
+						js,json,xml,pt,html
+					
+
+  SOAP       REST
+
+XML			js,json,xml,pt,html	
+
+
+
+Employee emp=new Employee(111,"sandeep",9000,"hyderabad");
+
+		jackson api-web
+
+			{
+			"eid":111,
+			"ename":"sandeep",
+			"esal":9000,
+			"eadd":"hyderabad"
+			}
+		
+		
+		
+		rest postman 
+		java app   <-----> angular
+		
+		ProductManagement--->
+		
+			add product
+			update product
+			delete product
+			get product
+			getAll products
+			getAll  products in between prices
+			
+		
+	
+		
+	
+		
+		
+		
+		
+		
+		
+		
+	
 			
