@@ -1,0 +1,365 @@
+Difference between TypeScript and JavaScript:
+---------------------------------------------
+* TypesScript is known as Object oriented programming language whereas JavaScript is a scripting language.
+
+* TYPESCRIPT HAS A FEATURE KNOWN AS STATIC TYPING BUT JAVASCRIPT(DYNAMIC TYPING) DOES NOT HAVE THIS FEATURE.
+
+* TypeScript gives support for modules whereas JavaScript does not support modules.
+
+* TypeScript has Interface but JavaScript does not have Interface.
+
+* TypeScript support optional parameter(?) function but JavaScript does not support optional parameter function.
+
+.js
+var a=123;				angular=>ts+html+css+spec.ts
+
+a="sandeep"	
+		
+.ts								TS=js+types
+
+var a:number=123;									javac 	filename.java --->.class--->jvm-->o/p
+	a="hello"//invlaid in  ts   browser js			tsc	    filename.ts  ---->.js	--->browsers-->o/p
+	
+	compiler
+compilation--->.java-->.class   javac
+
+	transpiler
+transapilation--->ts====>js     tsc 
+
+tsc
+
+.ts
+var a:number=123;
+
+
+
+TYPE SCRIPT:
+============
+				ts--->browser  js
+		
+**  Type script is a programming language,free and open source
+**  Developed and maintained by microsoft.
+*** Typescript compiler,transpiler
+
+.ts
+
+node
+1) Why TypeScript?
+
+Problems with javascript...js---.ts
+
+	Ex:-
+	var a;//any
+	a=10;
+	a="hello";
+	
+	a={};//object ....any structure
+	
+	** if you want to allow only particular type in  a(javascript variable) it's not possible in javascript.
+		we cant restrict/prevent javascript variables
+	
+	Ex:-
+	function add(a,b){return a+b;}
+	add(1,2);
+	3
+	add(1)
+	NaN
+	add(1,2,4)
+	3
+	 4 ignored ....
+	
+	**  in function calling we are not passing  required values even though it will execute(it will give NaN) 
+		but functionality we cant get....we cant prevent javascript functions..
+		
+		var person={firstname:"suresh",lastname:"kumar"};
+		
+		
+		person.sal=10;
+		{fname: "suresh", lname: "kumar", sal: 10}//if u print object
+	
+
+	**	Here we cant prevent the object structure.(OBJECTS ARE LOOSLY STRUCTURED)
+
+	** STILL why we are using javascript.... because browsers supports only javascript.
+	
+	
+	"COMPILATION"  -->Transpilation  ->ts->js
+	
+	js
+	ts 
+	
+	YES WE CAN WRITE CODING IN DIFFERENT LANGUAGES AND WE CAN COMPILE TO JavaScript...
+	
+	node		
+			
+					   "COMPILATION"-->compiler
+		TYPESCRIPT--->TRANSPILATION---->JavaScript
+
+		TYPESCRIPT COMPILER--->tsc			javac  
+		
+		TYPESCRIPT=JAVASCRIPT+TYPES(WE CAN DEFINE TYPE AND TYPE CHECKING HAPPENS DURING COMPILATION )
+		
+		FRAME WORKS LIKE ANGULAR2 ONWARDS USING TYPESCRIPT,NOT ONLY ANGULAR REACT....SO MANY IN FUTURE
+		
+** we are going to work with visual studio editor to work with typescript.
+
+	we can download from offcial site https://code.visualstudio.com/
+	
+	install code runner to run javascript in vsc ...
+	https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+	
+nodejs 
+
+NODE.JS:
+==========npm install typescript
+	
+	** WE NEED TO INSTALL NODEJS TO RUN TYPESCRIPT COMPILER
+	
+	https://nodejs.org/en/ from official site we can download and install.
+	
+	by typing node -v  in cmd prompt we can know wether node is installed or not .
+	
+	node -v will return version of node which we installed.
+	
+	npm -v its a package manager for node(it comes with node installation)
+	
+	By checking these two we can know weather node installed successfully or not.
+	
+	tsc typescript filename(for compilation)
+	
+		** Then  we can install typescript compiler.
+
+			how to install typescript?
+			
+		typescript is node module,will use node package manager to install typescript compiler.
+
+the way to install any node package,  npm install packagename
+
+
+	the name of the typescript compiler is --->typescript.
+	
+	->
+	=>
+	tsc filename.ts--->node filename.js
+	
+	then  type--->"npm install typescript -g", and we need to write -g to install it as global,other wise it will install in working directory.
+	
+	ECMASCRIPT 2015--->javascript
+	
+		THEN WE CAN WRITE TYPESCRIPT CODE .....
+		
+		lamda exrepssion    
+	BASIC FEATURES AND TYPES:		Arraow functions
+	=========================
+	function creation:new feature in javascript we can write javascript code in ts files 
+	
+var fn=()=>'response'; we need to write this in file with ts extension
+then we need to run by using tsc filename.ts,it will generate  js file like below.
+			
+its equal to old way creation function in js.
+				
+		var fn=function()
+		{
+		return 'response';
+		}
+we can create variables in typescript by specifying the datatype then it allow particular type what we mentioned 
+we dont have this option in javascript.
+		
+var a:number=2;
+var b:number;
+var c:string;
+var d:boolean;
+var e=undefined;
+var f=null;
+var abc;//any
+
+a=10;
+b=20;
+c="welcome";
+d=false;
+
+
+//these datatypes are primitve types in javascript and type script also
+	
+	
+	
+		
+		
+		How to create array in typescript?
+		
+		
+		
+		var myarr=[1,2,3];
+		
+		var x=
+Basically in javascript arrays will allow any type,if we want restrict for specific type
+		
+var array : number[];
+		
+//then it allows only number 
+		
+		TUPLES:
+		--------
+		In array if we want like first type number second type string ....then we need to go for tuples concept.
+		
+		
+			var arr :[number,string];
+			
+			arr=[1,true];
+			arr=[10,false];
+			arr=[true,'hello'];
+	
+		Compilation/transpilation :
+		=========================
+		
+		Understanding type ensure:
+		
+			* when ever compiler converts ts to javascript code it will remove all the typescript specific features.
+			
+			* if we have compile time errors it will warn the developer during the compilation process ,
+			but it will   compile even if we have errors....
+
+			
+		** function with types:
+		   ====================
+
+		   function add(a,b)
+		   {
+		   return a+b;
+		   }
+		   
+		   add(100,200);//hear we can pass string also...but if we want restrict the user to enter different data.
+		   
+		   
+		   
+		      function add(a :number,b :number):number
+		   {
+		   return a+b;
+		   }
+		   
+		   ** By default,typescript enforces that the argument counts in function calls exactly match 
+		   function signature not like javascript....
+		   
+		   ** we can take optional variable in functions
+		   
+		   function add(a, b,c?)
+		   {
+		   return a+b+c;
+		   }
+		   add(100,200);//valid
+		   add(100,200,300);//valid
+		   add(100,200,300,400); //in valid
+		   
+		   
+		   function add3(a, b, c,d? : number) {
+			return a + b + c+d;
+}
+var hel=add3(1,2,3,4);
+var hel=add3(1,2,3);
+//var hel=add3(1,2,'y','x');
+//here,argument d is a number and is optional,so it doesn't need to be passed but if it passed should be number type.
+
+function add4(a, b, c,d? : number):number {
+    return a + b + c+d;
+}//above syntax means add4 method always returns number type as output.....
+
+
+
+
+Implicit typing with variable declarations:
+------------------------------------------
+in ts file....
+
+var a=10;
+var b=true;
+var c="welcome";
+
+a="welcome to typescript"//invalid
+
+if you dont explicitly declare a variable type,but you assign  a value  with declaration,typescript 
+implicitly assumes the type from the value being assigned.
+
+Implicit typing with function calls:
+------------------------------------
+var a=10;
+var b=true;
+var c="welcome";
+
+function greet():string
+{
+return "Hello! Good Morning";
+}
+
+var greeting=greet();//intialization and assigning should be in same line....otherwise it treats normal 
+
+var greeeting;
+greeeting=greet();
+
+
+
+
+ANY TYPE:
+----------
+
+ var a;//a is any type...
+ a=10;
+ a=true;
+ a="welcome";
+ 
+var a:any;//we can pass any type of data to this a .
+Union type:
+-----------
+
+var  a : number|boolean;//union type decalration then a allows only number,boolean ...
+
+a=123;
+a=false;
+a="welcome"//invalid 
+
+
+How To create classes in typescript:
+-----------------------------------
+
+  class Person
+  {
+  firsname;
+  lastname;
+  }
+
+	var p=new Person();
+	
+	p.firsname="akash";
+	p.lastname="kumar";
+	
+	console.log(firsname+" "+lastname);
+	
+	
+	React is the one of the javascript framework wich is used to create ui website,if we discuss 
+	about fullstack it will be the UI development like angular ,view...
+	
+	
+	we need html,css,javascript to learn React, and NPM(node package manager to set the environment for React)
+	
+	
+	
+	
+	ANGULAR--->SPA
+	MVC
+	
+	component
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
